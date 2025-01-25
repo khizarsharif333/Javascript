@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+.container{
+    width: 28vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 15vh auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    margin: 0;
+    padding: 0.5rem 0;
+}
+
+.conElement{
+    padding: 0.5rem 0;
+}
+
+.input-field{
+    width:50%;
+    font-size: 1.1rem;
+}
+
+.radio-btns{
+    width:50%;
+    margin: 0 auto;
+}
+
+.submit{
+    width:30%;
+    margin: 0 auto;
+}
+
+.status-message{
+    margin: 0;
+    color: rgb(125, 227, 109);
+}
+
+.hidden{
+    display: none;
+}
