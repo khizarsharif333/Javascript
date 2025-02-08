@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input class="display btn" id="display" readonly>
+        <div class="grid">
+            <button class="item-wide operator btn" onclick="clearDisplay()">AC</button>
+            <button class="operator btn" onclick="appendToDispay('%')">%</button>
+            <button class="operator btn" onclick="appendToDispay('/')">÷</button>
+            <button class="btn" onclick="appendToDispay('7')">7</button>
+            <button class="btn" onclick="appendToDispay('8')">8</button>
+            <button class="btn" onclick="appendToDispay('9')">9</button>
+            <button class="operator btn" onclick="appendToDispay('*')">X</button>
+            <button class="btn" onclick="appendToDispay('4')">4</button>
+            <button class="btn" onclick="appendToDispay('5')">5</button>
+            <button class="btn" onclick="appendToDispay('6')">6</button>
+            <button class="operator btn" onclick="appendToDispay('-')">-</button>
+            <button class="btn" onclick="appendToDispay('1')">1</button>
+            <button class="btn" onclick="appendToDispay('2')">2</button>
+            <button class="btn" onclick="appendToDispay('3')">3</button>
+            <button class="operator btn" onclick="appendToDispay('+')">+</button>
+            <button class="item-wide btn" onclick="appendToDispay('0')">0</button>
+            <button class="btn" onclick="appendToDispay('.')">.</button>
+            <button class="operator btn" onclick="calculate()">=</button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
